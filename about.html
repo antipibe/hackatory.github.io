@@ -1,0 +1,16 @@
+---
+layout: page
+title: About
+permalink: /about/
+---
+<div class="hackers">
+  {% for hacker in site.hackers %}
+    <section class="hacker">
+      <img class="profile" src="{{ hacker.email | to_gravatar  }}?s=120" />
+      <h1><a href="{{hacker.url}}">{{hacker.name}}</a></h1>
+      <p>
+        {{hacker.excerpt}}
+      </p>
+    </section>
+  {% endfor %}
+</div>
