@@ -1,0 +1,40 @@
+---
+layout: page
+title: Contacto
+permalink: /about/
+---
+
+## Donde está?
+
+Av. Gdor. Freire 3043 departamento 4, es al lado de Santa Lucía (mapa). El timbre se escucha muy bajo, así que acerquen la oreja al auricular.
+
+<iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://www.openstreetmap.org/export/embed.html?bbox=-60.71830809116364%2C-31.638982430060494%2C-60.71468710899353%2C-31.637370227730322&amp;layer=mapnik&amp;marker=-31.63817633238918%2C-60.71649760007858" style="border: 1px solid black"></iframe><br/><small><a href="http://www.openstreetmap.org/?mlat=-31.63818&amp;mlon=-60.71650#map=19/-31.63818/-60.71650">View Larger Map</a></small>
+
+## Cuanto cuesta
+
+No cuesta nada, el que quiere poner plata o tiempo para lo que se necesite esta invitado a hacerlo.
+
+## WiFi
+
+Hay wifi en la oficina, la red se llama hackerlab y la password es aprenderaprogramar.
+
+## Cómo nos organizamos
+
+Hasta ahora, la única cuestión es intentar limpiar y ordenar un poco los jueves por la tarde y sacar la basura al salir el viernes.
+
+Para gestionar los gastos, lo que hacemos es cargar los gastos en este google form y los aportes en este otro form, esos formularios guardan datos en google sheets y genera un reporte.
+
+## Quienés somos
+
+<div class="hackers">
+  {% for hacker in site.hackers %}
+    <section class="hacker">
+      <img class="profile" src="{{ hacker.email | to_gravatar  }}?s=120" />
+      <h1><a href="{{hacker.url}}">{{hacker.name}}</a></h1>
+      <p>
+        {{hacker.excerpt}}
+      </p>
+    </section>
+  {% endfor %}
+</div>
+
