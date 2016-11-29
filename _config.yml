@@ -29,7 +29,6 @@ theme: minima
 gems:
   - jekyll-feed
   - jekyll-gravatar
-  - jekyll-assets
 exclude:
   - Gemfile
   - Gemfile.lock
