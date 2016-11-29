@@ -33,6 +33,7 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
+  - cache
 collections:
   hackers:
     output: true

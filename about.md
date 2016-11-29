@@ -22,7 +22,7 @@ Hay wifi en la oficina, la red se llama hackerlab y la password es aprenderaprog
 
 Hasta ahora, la única cuestión es intentar limpiar y ordenar un poco los jueves por la tarde y sacar la basura al salir el viernes.
 
-Para gestionar los gastos, lo que hacemos es cargar los gastos en este google form y los aportes en este otro form, esos formularios guardan datos en google sheets y genera un reporte.
+Para gestionar los gastos, lo que hacemos es cargar los gastos en un google form.
 
 ## Quienés somos
 
