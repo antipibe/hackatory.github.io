@@ -29,7 +29,7 @@ Para gestionar los gastos, lo que hacemos es cargar los gastos en un google form
 <div class="hackers">
   {% for hacker in site.hackers %}
     <section class="hacker">
-      <img class="profile" src="{{ hacker.email | to_gravatar  }}?s=120" />
+      <img class="profile" src="/assets/profile.png" />
       <h1><a href="{{hacker.url}}">{{hacker.name}}</a></h1>
       <p>
         {{hacker.excerpt}}
