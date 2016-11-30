@@ -28,11 +28,9 @@ markdown: kramdown
 theme: minima
 gems:
   - jekyll-feed
-  - jekyll-gravatar
 exclude:
   - Gemfile
   - Gemfile.lock
   - cache
 collections:
   hackers:
-    output: true
